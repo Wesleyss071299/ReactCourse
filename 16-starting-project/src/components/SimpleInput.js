@@ -11,6 +11,8 @@ const SimpleInput = (props) => {
     reset: resetNameInput
   } = useInput(value => value.trim() !== '');
 
+  
+
   let formIsValid = false;
 
     if (enteredNameIsValid) {
