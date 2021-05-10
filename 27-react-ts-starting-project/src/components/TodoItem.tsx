@@ -9,4 +9,4 @@ const TodoItem: React.FC<{ text: string; onRemoveTodo: () => void}> = (props) =>
     )
 }
 
-export default TodoItem;
+export default TodoItem;    
